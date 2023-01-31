@@ -1,15 +1,19 @@
 // const Biodata = require("../model/Biodata")
+// const admin = require("../model/admin")
 
 module.exports = {
   index: function(req, res){
     res.render("admin/index");
-    // Biodata.get(req.con, function(err, rows) {
-    //   res.render("biodata/index", { data: rows })
+    // admin.get(req.con, function(err, rows) {
+    //   res.render("admin/index", { data: rows })
     // })
   },
 
   user: function(req, res){
     res.render("admin/users/users");
+    // admin.user(req.con, function(err, rows) {
+    //   res.render("admin/users/users", { data: rows })
+    // })
   },
 
   create: function(req, res) {

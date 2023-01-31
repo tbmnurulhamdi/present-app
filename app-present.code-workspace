@@ -2,6 +2,9 @@
     "folders": [
         {
             "path": "."
+        },
+        {
+            "path": "../PROJECT NODE/blog2"
         }
     ]
 }
