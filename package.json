@@ -1,0 +1,35 @@
+{
+  "name": "app-present",
+  "version": "1.0.0",
+  "description": "this is present app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbmnurulhamdi/present-app.git"
+  },
+  "keywords": [
+    "present",
+    "app"
+  ],
+  "author": "Tb. M. Nurul Hamdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbmnurulhamdi/present-app/issues"
+  },
+  "homepage": "https://github.com/tbmnurulhamdi/present-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
